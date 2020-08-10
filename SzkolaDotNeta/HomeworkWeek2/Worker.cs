@@ -54,7 +54,7 @@ namespace HomeworkWeek2
         public override string ToString()
         {
             string result;
-            result = $"First Name = {FirstName}\nLast Name = {LastName}\nAge = {Age}\nGender = {Gender}\n PESEL = {Pesel}\nId = {Id}";
+            result = $"First Name = {FirstName}\nLast Name = {LastName}\nAge = {Age}\nGender = {Gender}\nPESEL = {Pesel}\nId = {Id}";
             return result;
         }
     }
