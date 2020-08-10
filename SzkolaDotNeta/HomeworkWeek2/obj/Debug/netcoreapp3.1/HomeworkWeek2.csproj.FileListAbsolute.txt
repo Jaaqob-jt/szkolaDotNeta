@@ -1,0 +1,13 @@
+E:\Projects\szkolaDotNeta\SzkolaDotNeta\HomeworkWeek2\bin\Debug\netcoreapp3.1\HomeworkWeek2.exe
+E:\Projects\szkolaDotNeta\SzkolaDotNeta\HomeworkWeek2\bin\Debug\netcoreapp3.1\HomeworkWeek2.deps.json
+E:\Projects\szkolaDotNeta\SzkolaDotNeta\HomeworkWeek2\bin\Debug\netcoreapp3.1\HomeworkWeek2.runtimeconfig.json
+E:\Projects\szkolaDotNeta\SzkolaDotNeta\HomeworkWeek2\bin\Debug\netcoreapp3.1\HomeworkWeek2.runtimeconfig.dev.json
+E:\Projects\szkolaDotNeta\SzkolaDotNeta\HomeworkWeek2\bin\Debug\netcoreapp3.1\HomeworkWeek2.dll
+E:\Projects\szkolaDotNeta\SzkolaDotNeta\HomeworkWeek2\bin\Debug\netcoreapp3.1\HomeworkWeek2.pdb
+E:\Projects\szkolaDotNeta\SzkolaDotNeta\HomeworkWeek2\obj\Debug\netcoreapp3.1\HomeworkWeek2.csprojAssemblyReference.cache
+E:\Projects\szkolaDotNeta\SzkolaDotNeta\HomeworkWeek2\obj\Debug\netcoreapp3.1\HomeworkWeek2.AssemblyInfoInputs.cache
+E:\Projects\szkolaDotNeta\SzkolaDotNeta\HomeworkWeek2\obj\Debug\netcoreapp3.1\HomeworkWeek2.AssemblyInfo.cs
+E:\Projects\szkolaDotNeta\SzkolaDotNeta\HomeworkWeek2\obj\Debug\netcoreapp3.1\HomeworkWeek2.csproj.CoreCompileInputs.cache
+E:\Projects\szkolaDotNeta\SzkolaDotNeta\HomeworkWeek2\obj\Debug\netcoreapp3.1\HomeworkWeek2.dll
+E:\Projects\szkolaDotNeta\SzkolaDotNeta\HomeworkWeek2\obj\Debug\netcoreapp3.1\HomeworkWeek2.pdb
+E:\Projects\szkolaDotNeta\SzkolaDotNeta\HomeworkWeek2\obj\Debug\netcoreapp3.1\HomeworkWeek2.genruntimeconfig.cache
