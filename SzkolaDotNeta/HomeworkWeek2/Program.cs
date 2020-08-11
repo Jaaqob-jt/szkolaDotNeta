@@ -10,11 +10,13 @@ namespace HomeworkWeek2
         static void Main(string[] args)
         {
             string option = "0";
-            Console.WriteLine("Hello There!\nWhich Lesson would you like to participate in?");
             while (option.ToLower() != "e")
             {
+                Console.ForegroundColor = ConsoleColor.Cyan;
                 // Options to choose from:
+                Console.WriteLine("\nHello There!\nWhich Lesson would you like to participate in?");
                 Console.WriteLine("\n1. Lesson 4");
+                Console.WriteLine("\n2. Lesson 7");
                 Console.WriteLine("Press any other key to exit program.");
                 Console.WriteLine();
                 option = Console.ReadLine();
@@ -24,6 +26,9 @@ namespace HomeworkWeek2
                 {
                     case "1":
                         LessonMenu.Lesson4();
+                        break;
+                    case "2":
+                        LessonMenu.Lesson7();
                         break;
                     default:
                         option = "e";
