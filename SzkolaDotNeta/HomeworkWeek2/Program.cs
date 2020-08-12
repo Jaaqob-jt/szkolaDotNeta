@@ -16,7 +16,7 @@ namespace HomeworkWeek2
                 // Options to choose from:
                 Console.WriteLine("\nHello There!\nWhich Lesson would you like to participate in?");
                 Console.WriteLine("\n1. Lesson 4");
-                Console.WriteLine("\n2. Lesson 7");
+                Console.WriteLine("2. Lesson 7");
                 Console.WriteLine("Press any other key to exit program.");
                 Console.WriteLine();
                 option = Console.ReadLine();

@@ -7,6 +7,9 @@ namespace HomeworkWeek2
 {
     public static class LessonMenu
     {
+        /// <summary>
+        /// Przerobiłem kod z poprzedniej lekcji tak, żeby można było zrobić z tego w miarę czytelne menu uzytkownika.
+        /// </summary>
         public static void Lesson4()
         {
             // Initialization of some fields to operate on.
@@ -56,7 +59,12 @@ namespace HomeworkWeek2
             }
         }
 
-        public static void Lesson7()
+        /// <summary>
+        /// Pozwoliłem sobie na przetłumaczenie większosci zadań na angielski - było mi tak łatwiej.
+        /// Mam też dużo kodu, który można wyciagnąć i zrobić z tego metody bardziej ogólne i wprowadzić odwołania do metod z wewnątrz metod, zastosować parametry.
+        /// Ogólnie mogłoby być czyściej.
+        /// </summary>
+        public static void Lesson7() 
         {
             // Initialization of some fields to operate on.
             string option = "0";
@@ -75,11 +83,11 @@ namespace HomeworkWeek2
                 Console.WriteLine("6. Check how your heigth determines your fate");
                 Console.WriteLine("7. Find biggest number");
                 Console.WriteLine("8. Check if you can become a student");
-                Console.WriteLine("9. ");
-                Console.WriteLine("A. ");
-                Console.WriteLine("B. ");
-                Console.WriteLine("C. ");
-                Console.WriteLine("D. ");
+                Console.WriteLine("9. Describe temperature");
+                Console.WriteLine("A. Check if you can build a triangle out of three given lengths");
+                Console.WriteLine("B. Check description of your grade");
+                Console.WriteLine("C. Check day of the week");
+                Console.WriteLine("D. Calculate something");
                 Console.WriteLine("Press any other key to exit to Lesson Menu.");
                 Console.WriteLine();
                 option = Console.ReadLine();
@@ -113,25 +121,26 @@ namespace HomeworkWeek2
                         lesson.CanBeStudent();
                         break;
                     case "9":
-
+                        lesson.DescribeTemperature();
                         break;
                     case "a":
-
+                        lesson.CanBeTriangle();
                         break;
                     case "b":
-
+                        lesson.DescribeGrade();
                         break;
                     case "c":
-
+                        lesson.DescribeDayOfTheWeek();
                         break;
                     case "d":
-
+                        lesson.Calculation();
                         break;
                     default:
                         option = "e";
                         break;
                 }
             }
+            
         }
     }
 }
