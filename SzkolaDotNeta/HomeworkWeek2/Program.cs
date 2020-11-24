@@ -17,6 +17,7 @@ namespace HomeworkWeek2
                 Console.WriteLine("\nHello There!\nWhich Lesson would you like to participate in?");
                 Console.WriteLine("\n1. Lesson 4");
                 Console.WriteLine("2. Lesson 7");
+                Console.WriteLine("3. Lesson 8");
                 Console.WriteLine("Press any other key to exit program.");
                 Console.WriteLine();
                 option = Console.ReadLine();
@@ -29,6 +30,9 @@ namespace HomeworkWeek2
                         break;
                     case "2":
                         LessonMenu.Lesson7();
+                        break;
+                    case "3":
+                        LessonMenu.Lesson8();
                         break;
                     default:
                         option = "e";

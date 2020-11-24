@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeworkWeek2", "HomeworkWeek2\HomeworkWeek2.csproj", "{9EF37082-2F80-4B5E-B183-EBFF3BE747DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeworkWeek2", "HomeworkWeek2\HomeworkWeek2.csproj", "{9EF37082-2F80-4B5E-B183-EBFF3BE747DA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E9678760-36E5-4E20-8775-A37D15F2BE57}"
 	ProjectSection(SolutionItems) = preProject
@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homeworks", "Homeworks", "{CEAE6B21-5DA1-4719-8E1C-0A4435B3380E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projects", "Projects", "{B1F2D53A-8A1C-4269-9805-6D38BE093729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMMS_Draft", "Projects\CMMS_Draft\CMMS_Draft.csproj", "{433366DA-A47B-468B-B4D1-1A132547FB2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,12 +26,17 @@ Global
 		{9EF37082-2F80-4B5E-B183-EBFF3BE747DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EF37082-2F80-4B5E-B183-EBFF3BE747DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EF37082-2F80-4B5E-B183-EBFF3BE747DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433366DA-A47B-468B-B4D1-1A132547FB2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433366DA-A47B-468B-B4D1-1A132547FB2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433366DA-A47B-468B-B4D1-1A132547FB2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433366DA-A47B-468B-B4D1-1A132547FB2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9EF37082-2F80-4B5E-B183-EBFF3BE747DA} = {CEAE6B21-5DA1-4719-8E1C-0A4435B3380E}
+		{433366DA-A47B-468B-B4D1-1A132547FB2F} = {B1F2D53A-8A1C-4269-9805-6D38BE093729}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2CDABBEF-DB54-40FC-B9B0-30BBEE857871}

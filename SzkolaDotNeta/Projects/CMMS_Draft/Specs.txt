@@ -1,0 +1,19 @@
+﻿Date:		09.11.2020
+Author:		Jakub Tomaszewski
+Project:	CMMS_Draft
+
+Navigation:
+					-----------------------
+1. Logging as User od Admin			-> done
+					-----------------------
+	[Admin Menu]					-> done
+	1. New machine					-> done
+	2. Delete machine				-> done	
+	3. Change admin password		-> done
+	4. Exit							-> done
+					-----------------------
+	[User Menu]						-> done
+	1. Add entry					-> done
+	2. Display all entries			-> done
+	3. Exit							-> done
+					-----------------------

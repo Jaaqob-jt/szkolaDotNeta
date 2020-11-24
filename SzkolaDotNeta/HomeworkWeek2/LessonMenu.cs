@@ -142,5 +142,59 @@ namespace HomeworkWeek2
             }
             
         }
+        public static void Lesson8()
+        {
+            // Initialization of some fields to operate on.
+            string option = "0";
+            while (option.ToLower() != "e")
+            {
+                Console.ForegroundColor = ConsoleColor.DarkYellow;
+                Console.WriteLine($"\nWelcome to Lesson 8 form Week 2. Please choose a topic to review:");
+                // Options to choose from:
+                Console.WriteLine("\n1. List all primes up to 100");
+                Console.WriteLine("2. List all even numbers up to 1000");
+                Console.WriteLine("3. List Fibonacchi numbers");
+                Console.WriteLine("4. Display a piramide of numbers");
+                Console.WriteLine("5. Display 1 - 20 to 3rd power");
+                Console.WriteLine("6. Display 1 - 20 sum of fractions");
+                Console.WriteLine("8. Reverse a string");
+                Console.WriteLine("8. Convert decimal to binary number");
+                Console.WriteLine("Press any other key to exit to Lesson Menu.");
+                Console.WriteLine();
+                option = Console.ReadLine();
+                Console.ForegroundColor = ConsoleColor.White;
+                // Actions based on chosen option:
+                switch (option)
+                {
+                    case "1":
+                        Lesson_8.ListPrimes();
+                        break;
+                    case "2":
+                        Lesson_8.ListEvens();
+                        break;
+                    case "3":
+                        Lesson_8.Fibonacci();
+                        break;
+                    case "4":
+                        Lesson_8.DisplayPiramide();
+                        break;
+                    case "5":
+                        Lesson_8.ThirdPower();
+                        break;
+                    case "6":
+                        Lesson_8.SumOfFractions();
+                        break;
+                    case "8":
+                        Lesson_8.ReverseString();
+                        break;
+                    case "9":
+                        Lesson_8.DecimalToBinary();
+                        break;
+                    default:
+                        option = "e";
+                        break;
+                }
+            }
+        }
     }
 }
