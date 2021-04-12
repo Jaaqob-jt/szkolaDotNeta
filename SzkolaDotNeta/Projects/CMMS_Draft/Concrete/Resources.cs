@@ -30,6 +30,8 @@ namespace CMMS_Draft
             }
         }
 
+        public static List<Entry> GetNoEntries() => new List<Entry>() { (new Entry(10, "Nothing to display")) };
+
         internal static MachineActionService Initialize(MachineActionService machineActionService)
         {
             machineActionService.AddNewMachine("AHU-1", Category.HVAC);
